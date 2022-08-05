@@ -28,9 +28,13 @@ For Deliverable 1, I was slates to evaluate THREE machine learning models by usi
 ##### Accuracy = (True Positive + True Negative) / (All Positives + All Negatives)
 
   - Accurancy:  
+  
     - RandomSampling score = 0.65
     - ClusterCentroid score = 0.53(Lowest)
     - SMOTE score = 0.64
+
+
+  - Precision:
   
 
 

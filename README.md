@@ -25,7 +25,7 @@ For Deliverable 1, I was slates to evaluate THREE machine learning models by usi
 
 ## Results
 
-Accuracy = (True Positive + True Negative) / (All Positives + All Negatives)
+##### Accuracy = (True Positive + True Negative) / (All Positives + All Negatives)
 
   - Accurancy:  
     - RandomSampling score = 0.65

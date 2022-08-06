@@ -38,7 +38,7 @@ For Deliverable 1, I was slates to evaluate THREE machine learning models by usi
   
     - RandomOverSampling: High Risk precision is low; Low Risk precision is high
     - SMOTE: High Risk precision is low; Low Risk precision is high
-    - ClusterCentroid: High Risk precision is lowl Low Risk precision is high
+    - ClusterCentroid: High Risk precision is low; Low Risk precision is high
 
   - Recall Score:
   
@@ -71,6 +71,49 @@ For Deliverable 2, I used the combined approach of over and under-sampling with 
 ### Deliverable 3: Use Ensemble Classifier to Predict Credit Risk
 
 For Deliverable 3, I used the "IBLEARN.ENSAMBLE" library to train and compare two different classifiers (BalancedRandomForestCLassifier, and EasyEnsambleClassifier) to predict credit risk.
+
+#### BalancedRandomForestClassifier Results
+
+![image](https://user-images.githubusercontent.com/8845050/183253403-c3fa0edb-968c-4715-b74c-27043a1d4d30.png)
+
+#### EasyEnsembleClassifer(AdaBoost) Results
+
+![image](https://user-images.githubusercontent.com/8845050/183253469-891da54e-8a4f-41cc-a5b1-0af0454ff3ab.png)
+
+
+## Results
+
+  - Accurancy:
+  
+      - EasyEnsemble model scored the highest with 0.93
+      - BalancedRandomForestClassifier had a score of 0.79
+
+  - Precision:
+
+      - The High Risk precision for BalancedRandomForestClassifier is *low* and the low risk is *high*
+      - The High Risk precision for EasyEnsemble is low and the *low* risk is *high*.
+
+  - Recall Scores:
+
+      - The high risk score for BalancedRandomForestClassifier is *low* and the low risk is *high*
+      - The high risk score for EasyEnsemble is *high* and the low risk is *high*
+
+
+## Summary
+
+  Of the 6 models being used, it is my opinion that EasyEnsembleClassifier model is the best fit for the data and possibly more robust(sensitivity score allowing for different data sets), while accuracy of 0.90+ is a primary indicator for this, the others averaged around 0.80, which is substantially lower.
+  
+  The precision between all the models was similar, so that was NOT a deciding factor, in my opinion.  The recall score for the EasyEnsembleClassifier was the best, with both a LOW RISK and HIGH RISK offering in the 0.90's.  The RandomOverSampling, SMOTE, CLusterCentroid models do NOT come close to being as precise, as the ranges were 0.50 to 0.65 overall.  
+  
+  I would choose EasyEnsembleClassifier going forward, for this data set.
+  
+  
+  ## Resources
+    - Jupyter Notebook
+    - Pandas
+    - Numpy
+    mnlev(virtual environment)
+  
   
   
 

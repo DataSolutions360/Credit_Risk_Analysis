@@ -36,6 +36,17 @@ For Deliverable 1, I was slates to evaluate THREE machine learning models by usi
 
   - Precision:
   
+    - RandomOverSampling: High Risk precision is low; Low Risk precision is high
+    - SMOTE: High Risk precision is low; Low Risk precision is high
+    - ClusterCentroid: High Risk precision is lowl Low Risk precision is high
+
+  - Recall Score:
+  
+    - The recall score between all three models are as follows:
+          - RandomOverSampling:  High Risk is 0.62; Low Risk is 0.68
+          - SMOTE: High Risk precision is low; Low Risk precision is high
+          - ClusterCentroid: High Risk precision is low; Low Risk precision is high
+       
 
 
 

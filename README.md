@@ -65,10 +65,12 @@ For Deliverable 2, I used the combined approach of over and under-sampling with 
   - Precision: The precision for high risk is low and the low risk precision is high
   
   - Recall score:
-      - The high risk score is 0.55
-      - The low risk score is 0.68
+      - The high risk score is 0.59
+      - The low risk score is 0.66
 
 ### Deliverable 3: Use Ensemble Classifier to Predict Credit Risk
+
+For Deliverable 3, I used the "IBLEARN.ENSAMBLE" library to train and compare two different classifiers (BalancedRandomForestCLassifier, and EasyEnsambleClassifier) to predict credit risk.
   
   
 
